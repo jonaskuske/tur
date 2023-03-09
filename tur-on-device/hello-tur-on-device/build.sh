@@ -8,7 +8,7 @@ TERMUX_PKG_SKIP_SRC_EXTRACT=true
 TERMUX_PKG_BUILD_IN_SRC=true
 
 termux_step_make() {
-	$CXX $CXXFLAGS $CPPFLAGS $TERMUX_PKG_BUILDER_DIR/main.c -o hello-tur-on-device
+	$CXX $CXXFLAGS $CPPFLAGS $TERMUX_PKG_BUILDER_DIR/main.cpp -o hello-tur-on-device
 }
 
 termux_step_make_install() {
