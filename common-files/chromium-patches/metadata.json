@@ -3,14 +3,16 @@
     "start": 4389
   },
   "blink-fix-narrowing/5511.patch": {
-    "start": 5481
+    "start": 5481,
+    "end": 5562
   },
   "blink-impl-wtf-stacksize/4389.patch": {
     "start": 4389,
     "end": 4960
   },
   "blink-impl-wtf-stacksize/5249.patch": {
-    "start": 4961
+    "start": 4961,
+    "end": 5562
   },
   "blink-include-cstring/4961.patch": {
     "start": 4961,
@@ -47,7 +49,11 @@
     "end": 4472
   },
   "chromium-headless-disable-sandbox-by-default/5359.patch": {
-    "start": 5359
+    "start": 5359,
+    "end": 5562
+  },
+  "chromium-headless-disable-sandbox-by-default/5563.patch": {
+    "start": 5563
   },
   "chromium-impl-dns/4389.patch": {
     "start": 4389,
@@ -97,13 +103,21 @@
     "end": 4960
   },
   "chromium-no-execinfo/5249.patch": {
-    "start": 4961
+    "start": 4961,
+    "end": 5562
+  },
+  "chromium-no-execinfo/5563.patch": {
+    "start": 5563
   },
   "chromium-no-futimes/4389.patch": {
     "start": 4389
   },
   "chromium-no-glibc-version/5359.patch": {
-    "start": 5359
+    "start": 5359,
+    "end": 5562
+  },
+  "chromium-no-glibc-version/5563.patch": {
+    "start": 5563
   },
   "chromium-no-priority-inheritance-locks/4389.patch": {
     "start": 4389,
@@ -127,7 +141,8 @@
     "end": 5413
   },
   "chromium-statfs-type/5414.patch": {
-    "start": 5414
+    "start": 5414,
+    "end": 5562
   },
   "chromium-ui-use-fabsf/5481.patch": {
     "start": 5481,
